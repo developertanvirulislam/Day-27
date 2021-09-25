@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.main_logo_div{
+    clear: both;
+    width: 100%;
+    background-color: #22c3a3;
+}
+.logo_div{
+    width: 50%;
+    float: left;
+    /* display: inline-block; */
+}
+.logo_div h1{
+    /* display: inline-block; */
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+.menu_div{
+    width: 50%;
+    float: right;
+    /* display: inline-block; */
+    text-align: center;
+}
+.menu_div ul li{
+    display: inline-block;
+}
+.menu_div ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.banner_img{
+    text-align: center;
+    background: url(https://i.ibb.co/0scXYJ3/header-bg01.jpg) no-repeat;
+    padding: 250px 50px;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-size: 20px;
+}
+.banner_img button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.banner_img a{
+    text-decoration: none;
+    background: transparent;
+    background-color: transparent;
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>service section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.service_section{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid #22c3a3 ;
+    padding: 80px 0px;
+    padding-bottom: 170px;
+}
+.service_header{
+    font-size: 20px;
+    padding: 30px 10px;
+}
+
+.service_content{
+    display: flex;
+    justify-content: space-around;
+}
+.service_text {
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+.service_text i {
+    font-size: 35px;
+    color: #22c3a3;
+    padding: 20px 10px;
+}
+.service_text h2 {
+    font-size: 25px;
+}
+.service_text p {
+    font-size: 17px;
+    margin-top: 11px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>about_section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.about_section{
+    text-align: center;
+    width: 100%;
+    padding: 60px 0px;
+}
+.about_header{
+    padding-bottom: 70px;
+}
+.about_img{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+.about_img img{
+    width: 100%;
+    height: auto;
+}
+.about_text{
+    float: right;
+    width: 65%;
+    text-align: left;
+}
+.about_text span{
+    font-size: 25px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>contact_section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.contact_section{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.contact_header{
+    padding: 30px 0px;
+}
+.address{
+    float: left;
+    width: 33%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.email{
+    float: left;
+    width: 33%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.phone{
+    float: left;
+    width: 33%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.contact_section i{
+    font-size: 25px;
+    color: #22c3a3;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>social icon>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.social_icon{
+    width: 100%;
+    background-color: #22c3a3;
+    text-align: center;
+}
+.social_icon ul{
+    display: inline-block;
+}
+.social_icon ul li{
+    display: inline-block;
+}
+.social_icon ul li a{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding: 20px 15px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer_section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.footer_div{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+footer{
+    color: grey;
+    font-size: 20px;
+    padding: 15px 0px;
+}
